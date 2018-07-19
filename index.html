@@ -3,18 +3,18 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<link rel="stylesheet" href="">
+	<title>SNoW</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 	<header>
 		<nav>
+			<!-- Try sth simpler 'floatL' or 'fL' -->
 			<ul class="float-left">
 				<li>SNoW</li>
 			</ul>
@@ -23,6 +23,7 @@
 				<li><a href="">Sign in</a></li>
 			</ul>
 		</nav>
+		<!-- Never use '_' character always '-' or none -->
 		<div class="div_1">
 			<h2 class="header2">A free landing page theme</h2>
 			<p class="p_lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -34,10 +35,27 @@
 			</div>
 		</div> 
 	</header>
-
+	<!-- 
+		Same ==> Never use '_' character always '-' or '--' or none 
+		Try to use classes as simple as possible
+		for instance 'be_the_first' should be replaced with 'section-1' or 's-1'
+		If you have nested elements try to use this style. 
+			...
+			<section class="section-1">
+				<h1 class="section-1--header"></h1>
+				<p class="section-1--paragraph">
+					<a class="section-1--paragraph--name"></a>
+				</p>
+				...
+			</section>
+			...
+		Apply it above and below please.
+		In the future it would be helpful. (when you'll be using preprocessor sass)
+	-->
 	<section class="be_the_first">
 		<h1 class="h1_be_the_first">Be the first</h1>
 		<p class="p_lorem_be_the_first">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+		<!-- When you want to specify path to image or whatever. use './iphone.png'-->
 		<img class="image_phone" src="iphone.png" alt="">
 	</section>
 

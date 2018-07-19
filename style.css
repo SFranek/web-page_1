@@ -4,6 +4,22 @@
     box-sizing: border-box;
 } */
 
+/***
+    Try to divide your classes to sections
+    For instance: float-right is reusable class
+    It should be at the reusable section
+    /**** Reusable classes *****/
+    /* 
+    .float-left { 
+        float: left; 
+        color: white;
+        font-size: 30px;
+    }
+
+    Create Sections such as reusable, header, section-one, section-two ... 
+    It would look much better and less chaotic
+***/
+
 header {
     width: 100%;
     height: 100vh;
@@ -39,6 +55,12 @@ nav ul li > a {
     color: white;
 }
 
+/***
+    Never combine properties such as color and fontSize in class float-left.
+    Class float-left represents just 'float: left' and this class is reusable
+    Syntax of one property should looks like:
+    float-left { float: left }
+***/
 .float-left { 
     float: left; 
     color: white;
