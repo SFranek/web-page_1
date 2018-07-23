@@ -134,7 +134,45 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
 }
+
+.section-2 {
+    width: 100%;
+    height: 50vh;
+} 
+
+.section-2-row {
+    margin: 200px 50px;
+    color: grey;
+    padding: 20px; 
+}
+
+.section-2-row p:nth-of-type(odd) {
+    font-weight: 600;
+    color: black;
+}
+
+.section-2-hr-1{
+    border: 0;
+    height: 4px;
+    background: #333;
+    background-color: purple;
+}
+
+.section-2-hr-2{
+    border: 0;
+    height: 4px;
+    background: #333;
+    background-color: aqua;
+}
+
+.section-2-hr-3 {
+    border: 0;
+    height: 4px;
+    background: #333;
+    background-color: yellow;
+}
+
+
 
 
