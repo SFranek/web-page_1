@@ -173,6 +173,66 @@ img {
     background-color: yellow;
 }
 
+.section-3 {
+    width: 100%;
+    height: 150vh;
+    background-color: aquamarine;
+}
 
+.section-3-h1 {
+    text-align: center;
+    padding-top: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.section-3-p {
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 15vh;
+}
+
+.footer-p1 {
+    padding: 30px 0px 0 60px;
+    float: left;
+    font-size: 12px;
+}
+
+.footer-p2 {
+    padding: 30px 60px 0 0px;
+    float: right;
+    color: gainsboro;
+    font-size: 12px;
+} 
+
+.footer-logos i {
+    float: left;
+    margin: 32px 0px 0px 15px;
+    padding-right: 5px;
+    font-size: 12px;
+}
 
 
