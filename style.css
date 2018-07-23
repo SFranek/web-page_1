@@ -4,22 +4,6 @@
     box-sizing: border-box;
 } */
 
-/***
-    Try to divide your classes to sections
-    For instance: float-right is reusable class
-    It should be at the reusable section
-    /**** Reusable classes *****/
-    /* 
-    .float-left { 
-        float: left; 
-        color: white;
-        font-size: 30px;
-    }
-
-    Create Sections such as reusable, header, section-one, section-two ... 
-    It would look much better and less chaotic
-***/
-
 header {
     width: 100%;
     height: 100vh;
@@ -55,25 +39,19 @@ nav ul li > a {
     color: white;
 }
 
-/***
-    Never combine properties such as color and fontSize in class float-left.
-    Class float-left represents just 'float: left' and this class is reusable
-    Syntax of one property should looks like:
-    float-left { float: left }
-***/
-.float-left { 
+.floatL { 
     float: left; 
     color: white;
     font-size: 30px;
 }
 
-.float-right { 
+.floatR { 
     float: right; 
     color: white;
     font-size: 15px;
 }
 
-.div_1 {
+.div-1 {
     margin: 180px 0;
 }
 
@@ -86,14 +64,14 @@ nav ul li > a {
 }
 
 
-.p_lorem {
+.p-lorem {
     color: white;
     text-align: center;
     margin: 0 300px;
     font-size: 16px;
 }
 
-.button_1 {
+.button-1 {
     border: none;
     color: black;
     background-color: white;
@@ -106,7 +84,7 @@ nav ul li > a {
     font-size: 16px;
 }
 
-.button_2 {
+.button-2 {
     border: none;
     color: white;
     background-color: rgb(60, 221, 159);
@@ -123,7 +101,7 @@ nav ul li > a {
     margin: 20px;
 }
 
-.be_the_first {
+.section-1 {
     background-image: url("be-the-first-bg.jpg");
     width: 100%;
     height: 100vh;
@@ -134,7 +112,7 @@ nav ul li > a {
     background-blend-mode: multiply;
 }
 
-.h1_be_the_first {
+.section-1-h1 {
     text-align: center;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -143,7 +121,7 @@ nav ul li > a {
     padding: 250px 0 15px 0;
 }
 
-.p_lorem_be_the_first {
+.section-1-paragraph {
     text-align: center;
     color: white;
     font-size: 16px;
@@ -151,7 +129,6 @@ nav ul li > a {
 }
 
 img {
-   
     height: 450px;
     margin: 50px; 
     display: block;

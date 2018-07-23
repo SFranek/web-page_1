@@ -14,49 +14,30 @@
 <body>
 	<header>
 		<nav>
-			<!-- Try sth simpler 'floatL' or 'fL' -->
-			<ul class="float-left">
+			<ul class="floatL">
 				<li>SNoW</li>
 			</ul>
-			<ul class="float-right">
+			<ul class="floatR">
 				<li><a href="">Pricing</a></li>
 				<li><a href="">Sign in</a></li>
 			</ul>
 		</nav>
-		<!-- Never use '_' character always '-' or none -->
-		<div class="div_1">
+		<div class="div-1">
 			<h2 class="header2">A free landing page theme</h2>
-			<p class="p_lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+			<p class="p-lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 				Quasi beatae distinctio a mollitia dolore totam quibusdam fugiat soluta odio saepe reiciendis, 
 				consequuntur maiores, eligendi impedit pariatur sit, minus ex sequi!</p>
 			<div class="buttons">
-				<button class="button_1">Learn more</button>
-				<button class="button_2">Request invite</button>
+				<button class="button-1">Learn more</button>
+				<button class="button-2">Request invite</button>
 			</div>
 		</div> 
 	</header>
-	<!-- 
-		Same ==> Never use '_' character always '-' or '--' or none 
-		Try to use classes as simple as possible
-		for instance 'be_the_first' should be replaced with 'section-1' or 's-1'
-		If you have nested elements try to use this style. 
-			...
-			<section class="section-1">
-				<h1 class="section-1--header"></h1>
-				<p class="section-1--paragraph">
-					<a class="section-1--paragraph--name"></a>
-				</p>
-				...
-			</section>
-			...
-		Apply it above and below please.
-		In the future it would be helpful. (when you'll be using preprocessor sass)
-	-->
-	<section class="be_the_first">
-		<h1 class="h1_be_the_first">Be the first</h1>
-		<p class="p_lorem_be_the_first">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-		<!-- When you want to specify path to image or whatever. use './iphone.png'-->
-		<img class="image_phone" src="iphone.png" alt="">
+	
+	<section class="section-1">
+		<h1 class="section-1-h1">Be the first</h1>
+		<p class="section-1-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+		<img class="image-phone" src="./iphone.png" alt="">
 	</section>
 
 	<section></section>
